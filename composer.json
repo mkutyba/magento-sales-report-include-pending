@@ -1,0 +1,7 @@
+{
+    "name": "kutybait/magento-sales-report-include-pending",
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

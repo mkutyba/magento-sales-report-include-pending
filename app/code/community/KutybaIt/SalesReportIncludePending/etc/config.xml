@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <KutybaIt_SalesReportIncludePending>
+            <version>0.1.0</version>
+        </KutybaIt_SalesReportIncludePending>
+    </modules>
+    <global>
+        <models>
+            <sales_resource>
+                <rewrite>
+                    <report_order_createdat>KutybaIt_SalesReportIncludePending_Model_Resource_Sales_Report_Order_Createdat</report_order_createdat>
+                </rewrite>
+            </sales_resource>
+        </models>
+        <blocks>
+            <sales>
+                <rewrite>
+                    <adminhtml_report_filter_form>KutybaIt_SalesReportIncludePending_Block_Sales_Adminhtml_Report_Filter_Form</adminhtml_report_filter_form>
+                    <adminhtml_report_filter_form_order>KutybaIt_SalesReportIncludePending_Block_Sales_Adminhtml_Report_Filter_Form_Order</adminhtml_report_filter_form_order>
+                </rewrite>
+            </sales>
+        </blocks>
+    </global>
+</config>

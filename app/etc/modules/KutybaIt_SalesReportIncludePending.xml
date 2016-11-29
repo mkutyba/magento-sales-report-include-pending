@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <KutybaIt_SalesReportIncludePending>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Sales/>
+            </depends>
+        </KutybaIt_SalesReportIncludePending>
+    </modules>
+</config>
