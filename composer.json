@@ -1,6 +1,15 @@
 {
     "name": "kutybait/magento-sales-report-include-pending",
     "type": "magento-module",
+    "license":"OSL-3.0",
+    "homepage":"https://github.com/mkutyba/magento-sales-report-include-pending",
+    "description":"Include all orders in Sales Reports in Magento. Doesn't exclude new and pending orders.",
+    "authors":[
+        {
+            "name":"Mateusz Kutyba",
+            "email":"mateusz@kutyba.it"
+        }
+    ],
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
     }
